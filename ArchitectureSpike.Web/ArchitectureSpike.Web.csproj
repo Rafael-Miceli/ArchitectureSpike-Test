@@ -288,6 +288,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArchitectureSpike.Data\ArchitectureSpike.Data.csproj">
+      <Project>{f069e292-8b22-42c3-bf8d-de9e03a91a99}</Project>
+      <Name>ArchitectureSpike.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ArchitectureSpike.Domain\ArchitectureSpike.Domain.csproj">
+      <Project>{99503e6f-74be-4c16-8425-41d65f982e1f}</Project>
+      <Name>ArchitectureSpike.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
