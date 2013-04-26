@@ -53,7 +53,7 @@ namespace ArchitectureSpike.Data.Repositories
 
         public TUEntity GetById(object identitieDto)
         {
-            throw new NotImplementedException();
+            return _context.Set<TUEntity>().Find(identitieDto);
         }
 
         public void Dispose()
