@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectureSpike.Web", "ArchitectureSpike.Web\ArchitectureSpike.Web.csproj", "{B040A123-C93C-4503-8296-BCE79A7477DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectureSpike.Domain", "..\ArchitectureSpike.Domain\ArchitectureSpike.Domain.csproj", "{99503E6F-74BE-4C16-8425-41D65F982E1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectureSpike.Data", "ArchitectureSpike.Data\ArchitectureSpike.Data.csproj", "{F069E292-8B22-42C3-BF8D-DE9E03A91A99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B040A123-C93C-4503-8296-BCE79A7477DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B040A123-C93C-4503-8296-BCE79A7477DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B040A123-C93C-4503-8296-BCE79A7477DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B040A123-C93C-4503-8296-BCE79A7477DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99503E6F-74BE-4C16-8425-41D65F982E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99503E6F-74BE-4C16-8425-41D65F982E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99503E6F-74BE-4C16-8425-41D65F982E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99503E6F-74BE-4C16-8425-41D65F982E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F069E292-8B22-42C3-BF8D-DE9E03A91A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F069E292-8B22-42C3-BF8D-DE9E03A91A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F069E292-8B22-42C3-BF8D-DE9E03A91A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F069E292-8B22-42C3-BF8D-DE9E03A91A99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
