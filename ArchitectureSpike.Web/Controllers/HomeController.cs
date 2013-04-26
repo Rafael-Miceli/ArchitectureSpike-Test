@@ -1,14 +1,20 @@
 ﻿using System.Web.Mvc;
+using ArchitectureSpike.Domain.Services;
 
 namespace ArchitectureSpike.Web.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly AssociateService _associateService;
+
+        public HomeController(AssociateService associateService)
+        {
+            _associateService = associateService;
+        }
+
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-
-            return View();
+            return View(_associateService.GetById(1));
         }
 
         public ActionResult About()

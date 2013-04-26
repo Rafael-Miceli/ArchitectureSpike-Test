@@ -1,26 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq.Expressions;
 using ArchitectureSpike.Data.Context;
 using ArchitectureSpike.Domain.Interfaces;
 
 namespace ArchitectureSpike.Data.Repositories
 {
-    public class GenericRepository<TEntity, TUEntity> : IRepository<TUEntity>, IDisposable
-        where TUEntity : class
-        where TEntity : class
+    public class GenericRepository<TUEntity>: IGenericRepository<TUEntity> where TUEntity : class
     {
-
         private readonly AssociateContext _context;
         protected AssociateContext Context { get { return _context; } }
-        private readonly DbSet<TEntity> _dbSet;
-        private TEntity _entity;
+        private TUEntity _entity;
 
         public GenericRepository(AssociateContext context)
         {
             _context = context;
-            _dbSet = context.Set<TEntity>();
         }
 
         public GenericRepository()
@@ -65,7 +58,7 @@ namespace ArchitectureSpike.Data.Repositories
 
         public void Dispose()
         {
-            Dispose();
+            _context.Dispose();
         }
     }
 }
