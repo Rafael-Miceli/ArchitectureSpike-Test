@@ -9,7 +9,6 @@ namespace ArchitectureSpike.Data.Repositories
     {
         private readonly AssociateContext _context;
         protected AssociateContext Context { get { return _context; } }
-        private TUEntity _entity;
 
         public GenericRepository(AssociateContext context)
         {
