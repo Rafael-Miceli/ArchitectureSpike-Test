@@ -5,9 +5,10 @@ namespace ArchitectureSpike.Data.Context
 {
     public class AssociateContext: DbContext
     {
-        public AssociateContext(): base("")
+        public AssociateContext()
+            : base("DefaultConnection")
         {
-            
+
         }
 
         public DbSet<Associate> Associates { get; set; }
