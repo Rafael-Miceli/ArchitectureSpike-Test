@@ -1,16 +1,18 @@
 ﻿using System.Web.Mvc;
+using ArchitectureSpike.Data.Repositories;
+using ArchitectureSpike.Domain.Interfaces;
 using ArchitectureSpike.Domain.Services;
 
 namespace ArchitectureSpike.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly AssociateService _associateService;
+        private AssociateService _associateService = new AssociateService(new GenericRepository<IAssociateEntitie>());
 
-        public HomeController(AssociateService associateService)
-        {
-            _associateService = associateService;
-        }
+        //public HomeController(AssociateService associateService)
+        //{
+        //    _associateService = associateService;
+        //}
 
         public ActionResult Index()
         {

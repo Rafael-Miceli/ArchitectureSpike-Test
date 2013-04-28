@@ -3,7 +3,7 @@ using ArchitectureSpike.Domain.Interfaces;
 
 namespace ArchitectureSpike.Data.DataService
 {
-    class AssociateDataService: GenericRepository<IAssociateEntitie>
+    class AssociateDataService : GenericRepository<IAssociateEntitie>
     {
     }
 }

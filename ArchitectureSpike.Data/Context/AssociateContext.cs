@@ -9,7 +9,7 @@ namespace ArchitectureSpike.Data.Context
             : base("DefaultConnection")
         {
 
-        }
+        } 
 
         public DbSet<Associate> Associates { get; set; }
     }

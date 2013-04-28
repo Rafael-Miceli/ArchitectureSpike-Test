@@ -5,7 +5,7 @@ using ArchitectureSpike.Domain.Interfaces;
 
 namespace ArchitectureSpike.Data.Repositories
 {
-    public class GenericRepository<TUEntity>: IGenericRepository<TUEntity> where TUEntity : class
+    public class GenericRepository<TUEntity> : IGenericRepository<TUEntity> where TUEntity : class
     {
         private readonly AssociateContext _context;
         protected AssociateContext Context { get { return _context; } }
@@ -19,7 +19,7 @@ namespace ArchitectureSpike.Data.Repositories
         {
             _context = new AssociateContext();
         }
-        
+
         public IEnumerable<TUEntity> Query(Func<TUEntity, bool> filter)
         {
             throw new NotImplementedException();
@@ -37,12 +37,12 @@ namespace ArchitectureSpike.Data.Repositories
 
         public virtual void Update(TUEntity entityToUpdate)
         {
-            
+
         }
 
         public void Remove(TUEntity entitieDto)
         {
-            
+
         }
 
         public IEnumerable<TUEntity> GetAll()
