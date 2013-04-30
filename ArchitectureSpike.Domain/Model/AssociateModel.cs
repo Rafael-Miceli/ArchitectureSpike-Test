@@ -1,6 +1,6 @@
 using System;
 
-namespace ArchitectureSpike.Domain.Interfaces
+namespace ArchitectureSpike.Domain.Model
 {    
 public interface IAssociateEntitie    
 {        
