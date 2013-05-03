@@ -1,16 +1,12 @@
 ﻿using System.Data.Entity;
-using ArchitectureSpike.Data.Entities;
+using ArchitectureSpike.Domain.Models;
 
 namespace ArchitectureSpike.Data.Context
 {
-    public class AssociateContext: DbContext
+    public class AssociateContext: BaseContext<AssociateContext>
     {
-        public AssociateContext()
-            : base("DefaultConnection")
-        {
-
-        } 
 
         public DbSet<Associate> Associates { get; set; }
+
     }
 }

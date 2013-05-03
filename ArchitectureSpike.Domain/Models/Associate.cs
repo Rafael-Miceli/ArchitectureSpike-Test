@@ -1,9 +1,8 @@
 ﻿using System;
-using ArchitectureSpike.Domain.Interfaces;
 
-namespace ArchitectureSpike.Domain.Dto
+namespace ArchitectureSpike.Domain.Models
 {
-    public class AssociateDto: IAssociateEntitie
+    public class Associate
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

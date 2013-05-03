@@ -1,5 +1,5 @@
 using System;
-using ArchitectureSpike.Data.Entities;
+using ArchitectureSpike.Domain.Models;
 
 namespace ArchitectureSpike.Data.Migrations
 {

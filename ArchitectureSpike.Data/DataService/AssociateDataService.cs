@@ -1,9 +1,9 @@
 ﻿using ArchitectureSpike.Data.Repositories;
-using ArchitectureSpike.Domain.Interfaces;
+using ArchitectureSpike.Domain.Models;
 
 namespace ArchitectureSpike.Data.DataService
 {
-    class AssociateDataService : GenericRepository<IAssociateEntitie>
+    public class AssociateDataService : GenericRepository<Associate>
     {
     }
 }

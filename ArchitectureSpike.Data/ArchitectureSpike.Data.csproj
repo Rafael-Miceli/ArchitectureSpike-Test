@@ -49,8 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\AssociateContext.cs" />
+    <Compile Include="Context\BaseContext.cs" />
+    <Compile Include="Context\OrderContext.cs" />
     <Compile Include="DataService\AssociateDataService.cs" />
-    <Compile Include="Entities\Associate.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\GenericRepository.cs" />

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectureSpike.Data", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitectureSpike.Domain", "ArchitectureSpike.Domain\ArchitectureSpike.Domain.csproj", "{99503E6F-74BE-4C16-8425-41D65F982E1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchitecturalSpike.Tests", "ArchitecturalSpike.Tests\ArchitecturalSpike.Tests.csproj", "{30DFA590-66CA-40AB-92A9-5A35308D2B31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{99503E6F-74BE-4C16-8425-41D65F982E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99503E6F-74BE-4C16-8425-41D65F982E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99503E6F-74BE-4C16-8425-41D65F982E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DFA590-66CA-40AB-92A9-5A35308D2B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DFA590-66CA-40AB-92A9-5A35308D2B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DFA590-66CA-40AB-92A9-5A35308D2B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DFA590-66CA-40AB-92A9-5A35308D2B31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
