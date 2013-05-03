@@ -41,7 +41,6 @@
   <ItemGroup>
     <Compile Include="Interfaces\IGenericRepository.cs" />
     <Compile Include="Models\Associate.cs" />
-    <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\OrderItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

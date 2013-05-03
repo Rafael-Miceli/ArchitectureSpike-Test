@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using ArchitectureSpike.Data.Context;
 using ArchitectureSpike.Domain.Interfaces;
 
@@ -20,7 +21,7 @@ namespace ArchitectureSpike.Data.Repositories
             _context = new AssociateContext();
         }
 
-        public IEnumerable<TUEntity> Query(Func<TUEntity, bool> filter)
+        public IEnumerable<TUEntity> Query(params Expression<Func<TUEntity, object>>[] filter)
         {
             throw new NotImplementedException();
         }
