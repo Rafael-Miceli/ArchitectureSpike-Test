@@ -39,8 +39,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dto\Associate.cs" />
-    <Compile Include="Interfaces\IAssociateEntitie.cs" />
     <Compile Include="Interfaces\IGenericRepository.cs" />
     <Compile Include="Models\Associate.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
